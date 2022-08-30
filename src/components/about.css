@@ -1,0 +1,9 @@
+.cover{
+    height: 70vh;
+    width: 100%;
+}
+.content{
+    margin: 30px;
+    font-size: 50px;
+    text-align: center;
+}

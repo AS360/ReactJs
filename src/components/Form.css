@@ -1,0 +1,57 @@
+.login {
+  position: fixed;
+  background-color: #09744b;
+  color: white;
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 25px;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tab {
+  padding: 10px;
+  border: yellowgreen;
+  border-radius: 50px;
+  width: 100%;
+}
+.btn_group {
+  text-align: center;
+}
+.submitbtn {
+  position: relative;
+  background: #053885;
+  padding: 10px 30px 10px;
+  margin: 10px 10px 0;
+  border: none;
+  color: rgb(252, 252, 252);
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+.cancelbtn {
+  position: relative;
+  background: #ff1e00;
+  padding: 10px 30px 10px;
+  margin: 10px 10px 0;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+button:hover {
+  opacity: 0.6;
+}
+.animate_zoom {
+  animation: zoom 0.6s ease-in-out;
+}
+@keyframes zoom {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

@@ -1,0 +1,8 @@
+.cover {
+  height: 70vh;
+  width: 100%;
+}
+.content li {
+  font-size: 30px;
+  list-style: none;
+}
